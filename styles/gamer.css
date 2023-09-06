@@ -276,3 +276,255 @@ padding-left: 50px;
 
 }
 
+
+
+
+
+
+
+.review-container{
+ gap: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 100px;
+
+}
+.single-review{
+  flex-basis:200px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.single-review img{
+  width: 60px;
+  height: 60px;
+}
+.top-review{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.top-review p{
+  padding-left: 10px;
+}
+
+.single-review:hover{
+  border-radius: 50px;
+  font-weight: 700;
+  color: #F948B2;
+border: 2.5px solid var(--Linear, #FF42A5);
+background: #FFF;
+cursor: pointer;
+}
+
+
+.flower-email {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  /* padding-left: 260px; */
+}
+
+.footer-cover {
+  background: #111010;
+  background-repeat: no-repeat;
+
+  margin: auto;
+  height: 365px;
+  background-size: contain;
+}
+
+.footer-cover-title {
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 35px;
+}
+.footer-cover-description {
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.footer-end {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  padding-top: p20x;
+  padding-bottom: 40px;
+}
+
+.span {
+  color: #e55473;
+}
+
+.footer-cover{
+  background-color:#111010;
+}
+
+.footer-headline{
+color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  cursor: pointer;
+  padding-left: 10px;
+
+}
+
+.footer-cover-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+
+.footer-nav-2{
+  background-color: #111010;
+}
+
+.footer-nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.footer-nav ul li{
+  padding: 15px;
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+ 
+}
+
+.footer p{
+  color: rgba(255, 255, 255, 0.60);
+
+}
+
+
+.footer-nav-2 ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.footer-nav-2 ul li{
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.60);
+  list-style: none;
+  cursor: pointer;
+ 
+}
+
+.footer-end-2{
+  background-color: #111010;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  padding-top: 20x;
+  padding-bottom: 100px;
+}
+
+
+
+
+
+/* responsive design for mobile and similar devices */
+
+
+@media screen and (max-width: 576px) {
+
+  header,nav,nav > ul,nav li,nav li a,.logo,.headline{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .banner-container{
+ 
+    display:flex;
+    flex-direction: column;
+  }
+
+  .banner-text{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .banner-img{
+    width: 70%;
+    padding-top: 80px;
+padding-left: 90px;
+    /* display: block; */
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
+
+  }
+
+  .online-games-card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+.play-games-online-container{
+
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  /* display: grid;
+  grid-template-columns: repeat(1,1fr); */
+}
+
+
+.img-1 img{
+  width: 120%;
+}
+
+
+.img-2 img{
+  position: absolute;
+  top: 3544px;
+  right: 6px;
+  width: 25%;
+}
+
+
+.play-games-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.review-container{
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+.footer-cover{
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.footer-nav li{
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+}
