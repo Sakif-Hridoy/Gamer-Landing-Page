@@ -1,11 +1,12 @@
-* {
-  font-family: "Work Sans", sans-serif;
-}
+/* Global Values */
 * {
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+
 }
+
+/* Header and Nav Part */
 
 .logo-container {
   display: flex;
@@ -78,6 +79,12 @@ nav li a {
   width: 24px;
   height: 24px;
 }
+
+
+
+
+
+/* Banner Part */
 
 .banner-container {
   max-width: 1400px;
@@ -155,8 +162,8 @@ nav li a {
   background: #4ec5f7;
 }
 
-.online-games {
-}
+
+/* Online Games Part */
 
 .online-title {
   padding-top: 100px;
@@ -215,13 +222,8 @@ nav li a {
     display: flex;
 }
 
-.img-container{
-/* margin: 5% 10%; */
-}
 
-.img-container div{
-    /* width:50%; */
-}
+/* Play Instantly Part */
 
 .img-1{
     position: relative;
@@ -279,7 +281,7 @@ padding-left: 50px;
 
 
 
-
+/* Various Games Part */
 
 
 .review-container{
@@ -323,12 +325,7 @@ cursor: pointer;
 }
 
 
-.flower-email {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  /* padding-left: 260px; */
-}
+/* Footer Part */
 
 .footer-cover {
   background: #111010;
@@ -448,6 +445,10 @@ color: #fff;
     flex-direction: column;
   }
 
+  .logo-container{
+    padding-left: 0px;
+  }
+
   .banner-container{
  
     display:flex;
@@ -526,5 +527,70 @@ padding-left: 90px;
   flex-direction: column;
 }
 
+
+}
+
+
+@media screen and (min-width:576px) and (max-width: 960px){
+
+
+
+ header,nav,nav > ul,nav li,nav li a,.logo,.headline{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .logo-container{
+    padding-left: 0px;
+  }
+
+  .banner-container{
+ 
+    display:flex;
+    flex-direction: column;
+  }
+
+  .banner-text{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .banner-img{
+    width: 70%;
+    padding-top: 80px;
+padding-left: 90px;
+    /* display: block; */
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
+
+  }
+
+  .online-games-card-container{
+    padding-left: 140px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+.play-games-online-container{
+
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  /* display: grid;
+  grid-template-columns: repeat(1,1fr); */
+}
+
+
+.img-2 img {
+  position: absolute;
+  top: 3850px;
+  right: 353px;
+  width: 23%;
+}
 
 }
